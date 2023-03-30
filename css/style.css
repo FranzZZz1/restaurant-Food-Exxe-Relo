@@ -521,6 +521,12 @@ h6 {
     z-index: 1;
 }
 
+.description__adress,
+.description__phone {
+    padding-left: 35px;
+    position: relative;
+}
+
 .description__adress {
     margin-bottom: 20px;
 }
@@ -530,17 +536,14 @@ h6 {
 }
 
 .description__phone {
+	text-decoration: none;
     margin-bottom: 25px;
+    color: #fff;
+    display: inline-block;
 }
 
 .description__phone::before {
     background-image: url("../img/phone.svg");
-}
-
-.description__adress,
-.description__phone {
-    padding-left: 35px;
-    position: relative;
 }
 
 .description__adress::before,
@@ -606,6 +609,10 @@ h6 {
     height: 120px;
 }
 
+.footer__logo {
+    text-decoration: none;
+}
+
 .footer__content {
     height: 120px;
     display: -webkit-box;
@@ -619,13 +626,11 @@ h6 {
     justify-content: space-between;
 }
 
-.footer__privacy-policy {
+.footer__privacy-policy a {
     font-weight: 400;
     color: #fff;
-}
-
-.footer__privacy-policy a {
     text-decoration: none;
+	display: inline-block;
 }
 
 .footer__author-link a {
